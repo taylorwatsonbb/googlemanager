@@ -17,13 +17,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <script>
  
- const map = new Map([
-  [1970, 'bell bottoms'],
-  [1980, 'leg warmers'],
-  [1990, 'flannel'],
-]),
-   
-   map.keys()
+const Http = new XMLHttpRequest();
+const url='https://jsonplaceholder.typicode.com/posts';
+Http.open("GET", url);
+Http.send();
+
+Http.onreadystatechange = (e) => {
+  console.log(Http.responseText)
+}
  
  
  

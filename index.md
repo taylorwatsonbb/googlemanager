@@ -39,7 +39,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](https://taylorwatsonbb.github.io/googlemanager/) and ![Image](src)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).

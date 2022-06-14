@@ -15,7 +15,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-  <script> </script>
+  <script>
+ 
+ const map = new Map([
+  [1970, 'bell bottoms'],
+  [1980, 'leg warmers'],
+  [1990, 'flannel'],
+]),
+   
+   map.keys()
+ 
+ 
+ 
+ 
+ </script>
 
 </body>
 

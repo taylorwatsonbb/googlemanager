@@ -17,15 +17,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <script>
  
-const Http = new XMLHttpRequest();
-const url='https://jsonplaceholder.typicode.com/posts';
-Http.open("GET", url);
-Http.send();
+    add_query_arg( array(
+    'key1' => 'value1',
+    'key2' => 'value2',
+), 'https://taylorwatsonbb.github.io/googlemanager/?gtm_debug=1655249205837');
 
-Http.onreadystatechange = (e) => {
-  console.log(Http.responseText)
-}
- 
  
  
  
